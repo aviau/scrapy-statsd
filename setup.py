@@ -39,7 +39,6 @@ setup(
     packages=find_packages(exclude=['contrib', 'docs', 'tests']),
     install_requires=[
         'six',
-        'Scrapy>=1.0.5',
         'statsd==3.2.1'
     ],
     extras_require={
